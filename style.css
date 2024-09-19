@@ -72,19 +72,6 @@ h2{
     background: yellow;
     transition: 0.25s;
 }
-/* 
-.card::after{
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: green;
-    transition: 0.25s;
-    transform: rotatey(0deg);
-} */
-
-.card.flipped .card-inner {
-    transform: rotateY(180deg);
-}
 
 .card .card-inner {
     width: 100%;
